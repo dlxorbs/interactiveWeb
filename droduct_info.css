@@ -1,0 +1,80 @@
+body{
+    background-color: #fff;
+}
+
+.product_character{
+    width: 1240px;
+    margin: auto;
+}
+
+.horizental{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  
+    align-items: center;
+    margin: 90px auto;
+}
+
+
+video{
+    width: 100%;
+}
+
+.hd{
+    color: #333;
+
+    text-align: left;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.infotext{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.infosec{
+
+    width: 577px;
+    height: 445px;
+    background-repeat: no-repeat;
+    background-image: url(../Image/productinfo1.png);
+    background-position: center right;
+}
+
+.infothird{
+
+    width: 577px;
+    height: 445px;
+    background-repeat: no-repeat;
+    background-image: url(../Image/productinfo2.png);
+    background-position: center right;
+}
+
+.infoforth{
+
+    width: 577px;
+    height: 445px;
+    background-repeat: no-repeat;
+    background-image: url(../Image/productinfo3.png);
+    background-position: center right;
+}
+
+.detail{
+    text-align: center;
+}
+
+.dt{
+    width: 484px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    height: 200px;
+    transition: 1s;
+    /* opacity: 0; */
+ 
+
+}
